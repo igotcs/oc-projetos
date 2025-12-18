@@ -26,7 +26,7 @@ void dectobin(int valor, int C[], int tamanho) {
 
 int main() {
     int n;
-    printf("digite o numero de bits : ");
+    printf("digite o numero de bits: ");
     if (scanf("%d", &n) != 1)
         return 1;
 
@@ -36,7 +36,7 @@ int main() {
     for (int i = 0; i < n; i++)
         scanf("%d", &A[i]);
 
-    printf("digite os bits de B:\n");
+    printf("digite os bits de B: \n");
     for (int i = 0; i < n; i++)
         scanf("%d", &B[i]);
 
