@@ -21,7 +21,7 @@ int main() {
         } else if (soma == 2) {
             C[i + 1] = 0;
             carry = 1;
-        } else { // soma == 3
+        } else { 
             C[i + 1] = 1;
             carry = 1;
         }
