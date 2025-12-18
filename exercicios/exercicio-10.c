@@ -48,7 +48,7 @@ int main() {
         Bcomp[i] = !B[i];
     }
     
-    int carry = 1; // 
+    int carry = 1; 
     for (int i = tamanho - 1; i >= 0; i--) {
         int soma = A[i] + Bcomp[i] + carry;
         C[i] = soma % 2;
