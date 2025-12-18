@@ -29,7 +29,7 @@ int main() {
 
     C[0] = carry;
 
-    printf("Resultado: ");
+    printf("resultado: ");
     for (int i = 0; i < N + 1; i++) {
         printf("%d", C[i]);
     }
